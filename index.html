@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Curd Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link>
+        <link href="https://fonts.googleapis.com/css2?family=Margarine&family=Playwrite+IT+Moderna:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar-->
+    <header>
+        <h1>Registration Form</h1>
+    </header>
+    <main class="back">
+        <section>
+            <div class="crud-form">
+                <div>
+                    <h2>
+                        <pre>Add Student Data</pre>
+                    </h2>
+                    <form action="" class="form" id="AddForm">
+                        <div>
+                            <label for="studentAddName">Student Name</label>
+                            <input required type="text" placeholder="Student Name" id="studentAddName"
+                                name="studentAddName">
+                        </div>
+                        <div>
+                            <label for="studentAddAge">Student Age</label>
+                            <input required type="number" placeholder="Student Age" id="studentAddAge"
+                                name="studentAddAge">
+                        </div>
+                        <div>
+                            <label for="studentAddEmail">Student E-mail</label>
+                            <input required type="email" placeholder="Student E-mail" id="studentAddEmail"
+                                name="studentAddEmail">
+                        </div>
+                        <div>
+                            <label for="studentAddPhone">Student phone-Number</label>
+                            <input required type="tel" placeholder="Student Mobile No." id="studentAddPhone"
+                                name="studentAddPhone">
+                        </div>
+                        <div>
+                            <label for="studentAddAddress">Student Address</label>
+                            <textarea rows="6" class="text-area" id="studentAddAddress"
+                                name="studentAddAddress"></textarea>
+                        </div>
+                        <input type="submit" class="btn">
+                    </form>
+                </div>
+                <div>
+                    <h2>
+                        <pre>Edit Student Data</pre>
+                    </h2>
+                    <form action="" class="form" id="EditForm">
+                        <div>
+                            <label for="studentEditName">Student Name</label>
+                            <input required type="text" placeholder="Student Name" id="studentEditName"
+                                name="studentEditName">
+                        </div>
+                        <div>
+                            <label for="studentEditAge">Student Age</label>
+                            <input required type="number" placeholder="Student Age" id="studentEditAge"
+                                name="studentEditAge">
+                        </div>
+                        <div>
+                            <label for="studentEditEmail">Student E-mail</label>
+                            <input required type="email" placeholder="Student E-mail" id="studentEditEmail"
+                                name="studentEditEmail">
+                        </div>
+                        <div>
+                            <label for="studentEditPhone">Student phone-Number</label>
+                            <input required type="tel" placeholder="Student Mobile No." id="studentEditPhone"
+                                name="studentEditPhone">
+                        </div>
+                        <div>
+                            <label for="studentEditAddress">Student Address</label>
+                            <textarea rows="6" class="text-area" id="studentEditAddress"
+                                name="studentEditAddress"></textarea>
+                        </div>
+                        <input type="submit" class="btn">
+                    </form>
+                </div>
+                <div>
+                    <h2>View Student Information</h2>
+                    <div class="student-table"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
